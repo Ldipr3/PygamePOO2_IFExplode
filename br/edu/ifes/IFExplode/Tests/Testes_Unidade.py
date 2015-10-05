@@ -18,7 +18,7 @@ class TestPlayer(unittest.TestCase):
 
     def testPlayerPositioning(self):
         self.player.set_position(20,20)
-        assert self.player.rect.x == 20 & self.player.rect.y ==20
+        assert self.player.rect.centerx == 20 & self.player.rect.centery ==20
 
 
 
