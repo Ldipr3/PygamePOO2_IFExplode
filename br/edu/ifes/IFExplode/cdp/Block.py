@@ -13,8 +13,5 @@ class Block( pygame.sprite.Sprite): # Usa a classe sprite do java
 
         self.rect = self.image.get_rect() #da propriedades de um retangulo a imagem feito pelao pygame
 
-        #self.origin_x = self.rect.centerx
-        #self.origin_y = self.rect.centery
-
-        self.rect.x = x #- self.origin_x
-        self.rect.y = y #- self.origin_y
+        self.rect.x = x
+        self.rect.y = y
