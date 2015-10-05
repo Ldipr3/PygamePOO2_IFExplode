@@ -14,7 +14,6 @@ import pygame, sys, os, time
 from br.edu.ifes.IFExplode.cdp.color import *
 from br.edu.ifes.IFExplode.cdp.Player import *
 from br.edu.ifes.IFExplode.cdp.Block import *
-#from br.edu.ifes.IFExplode.cdp.Fase import *
 from br.edu.ifes.IFExplode.cdp.Fase_1 import *
 
 from pygame.locals import *
