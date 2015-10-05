@@ -1,4 +1,3 @@
 # PygamePOO2_IFExplode
 
-
-links da página com a documentação -> 
+link da página com a documentação -> http://ldipr3.github.io/PygamePOO2_IFExplode 
