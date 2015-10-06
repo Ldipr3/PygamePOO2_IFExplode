@@ -49,7 +49,7 @@ if (__name__ == "__main__"):
 
     while running:
         for event in pygame.event.get():
-            if (event.type == QUIT) or \
+            if (event.type == pygame.QUIT) or \
             (event.type == pygame.KEYDOWN and \
             (event.key == pygame.K_ESCAPE or event.key == pygame.K_q)):
                 running = False
