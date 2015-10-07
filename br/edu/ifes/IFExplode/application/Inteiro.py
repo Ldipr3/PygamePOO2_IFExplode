@@ -15,35 +15,13 @@ from br.edu.ifes.IFExplode.cdp.color import *
 from br.edu.ifes.IFExplode.cdp.Player import *
 from br.edu.ifes.IFExplode.cdp.Block import *
 from br.edu.ifes.IFExplode.cdp.Fase_1 import *
+from br.edu.ifes.IFExplode.cgt.AplGerenciarPlayer import *
+from br.edu.ifes.IFExplode.cgt.AplGerenciarFase import *
+from br.edu.ifes.IFExplode.cih.JanelaPrincipal import *
 
 from pygame.locals import *
 
 if (__name__ == "__main__"):
-
-    pygame.init()
-
-    # Definicoes da Janela
-    #window_tamanho = window_largura, window_altura = 1024, 768
-    window = pygame.display.set_mode(window_tamanho, pygame.RESIZABLE)
-    pygame.display.set_caption('IFExplode!!!')
-    clock = pygame.time.Clock()#funcao clock controla o tempo dentro da janela
-    frames_por_segundo = 60
-
-    lista_objetos_ativos = pygame.sprite.Group() #cria lista de objetos ativo
-    player = Player() #cria o player
-    player.set_image(os.path.join("Images", "PlayerV1.png"))
-    player.set_position(40, 40) #define uma posicao para o player
-
-    lista_objetos_ativos.add(player) #adiciona player na lista de objetos ativos
-
-    lista_Fases = [] #uma lista para as fases
-    lista_Fases.append(Fase_1( player )) #adiciona a fase 1 a lista e passa o objeto player naquela fase
-
-    fase_atual_numero = 0 # um numero para identificar a fase atual
-    fase_atual = lista_Fases[fase_atual_numero] #guarda a posicao da fase atual da lista
-
-    player.set_fase(fase_atual)
-
 
     running = True # Variavel para o loop da janela principal
 

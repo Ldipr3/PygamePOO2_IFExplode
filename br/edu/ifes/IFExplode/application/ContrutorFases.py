@@ -7,7 +7,7 @@ from br.edu.ifes.IFExplode.cdp.color import *
 if(__name__ == "__main__"):
 
     pygame.init()
-    tamanho_tela = largura, altura = 2000, 768
+    tamanho_tela = largura, altura = 2500, 900
     Janela = pygame.display.set_mode(tamanho_tela)
 
     clock = pygame.time.Clock()

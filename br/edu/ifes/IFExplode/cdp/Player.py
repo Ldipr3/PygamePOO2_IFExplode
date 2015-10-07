@@ -9,7 +9,8 @@ class Player (pygame.sprite.Sprite):
 
         super( Player, self ).__init__() #pega as caracteristicas do pai e construtor
         self.image = pygame.Surface((largura, altura))
-        self.image.fill(color) #preenche a imagem com uma cor
+        self.mask = pygame.mask.from_surface(self.image)
+        #self.image.fill(color) #preenche a imagem com uma cor
 
         self.set_properties()
 
@@ -80,7 +81,7 @@ class Player (pygame.sprite.Sprite):
                     self.hspeed = self.speed
                 if (event.key == pygame.K_UP):
                     if(len(collision_list)>=1):
-                        self.vspeed = -(self.speed)*2.0 # dobra a velocidade e pula
+                        self.vspeed = -(self.speed)*3.0 # dobra a velocidade e pula
                 '''
                 if (event.key == pygame.K_DOWN):
                     #self.change_speed( 0, 5 )
