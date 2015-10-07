@@ -5,7 +5,7 @@ from color import *
 
 class Player (pygame.sprite.Sprite):
     # define as propriedades da imagem como cor e tamanho
-    def __init__(self, color = blue, largura = 70, altura = 86):
+    def __init__(self, color = blue, largura = 40, altura = 66):
 
         super( Player, self ).__init__() #pega as caracteristicas do pai e construtor
         self.image = pygame.Surface((largura, altura))

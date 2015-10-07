@@ -21,6 +21,11 @@ from br.edu.ifes.IFExplode.cih.JanelaPrincipal import *
 
 from pygame.locals import *
 
+
+aplgerenciarPlayer = AplGerenciarPlayer()
+aplgerenciarPlayer.define_propriedades(player)
+aplgerenciarPlayer.ativa_player(player)
+
 if (__name__ == "__main__"):
 
     running = True # Variavel para o loop da janela principal
