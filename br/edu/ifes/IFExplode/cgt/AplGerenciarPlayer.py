@@ -6,7 +6,7 @@ from br.edu.ifes.IFExplode.cdp.Fase_1 import *
 
 lista_objetos_ativos = pygame.sprite.Group() #cria lista de objetos ativo
 
-class AplGerenciarPlayer(Player):
+class AplGerenciarPlayer():
 
     def define_propriedades(self, Player):
         player.set_image(os.path.join("Images", "Player_V3.png"))

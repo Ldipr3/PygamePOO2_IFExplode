@@ -1,15 +1,13 @@
-# TRABALHO INTEGRADO: Título do trabalho
+# TRABALHO INTEGRADO: Jogo Plataforma 2D usando Pygame
 
-Trabalho desenvolvido durante as disciplinas de:
-- Banco de Dados 2, 
-- Engenharia de Software, 
+Trabalho desenvolvido durante as disciplinas de: 
 - Programação Orientada a Objetos 2,
-- Projeto de Sistemas
+
 
 
 **INTEGRANTES DO GRUPO:** 
-- Nome integrante 1
-- Nome integrante 2<br>
+- Lucas Dipré Pereira
+
 
         
 # Sumário

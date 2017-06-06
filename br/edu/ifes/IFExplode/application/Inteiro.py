@@ -18,13 +18,11 @@ from br.edu.ifes.IFExplode.cdp.Fase_1 import *
 from br.edu.ifes.IFExplode.cgt.AplGerenciarPlayer import *
 from br.edu.ifes.IFExplode.cgt.AplGerenciarFase import *
 from br.edu.ifes.IFExplode.cih.JanelaPrincipal import *
+from br.edu.ifes.IFExplode.cci.CrlFase import *
 
 from pygame.locals import *
 
-
-aplgerenciarPlayer = AplGerenciarPlayer()
-aplgerenciarPlayer.define_propriedades(player)
-aplgerenciarPlayer.ativa_player(player)
+CrlFase()
 
 if (__name__ == "__main__"):
 
