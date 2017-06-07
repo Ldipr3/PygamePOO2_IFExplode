@@ -6,7 +6,7 @@ Trabalho desenvolvido durante as disciplinas de:
 
 
 **INTEGRANTES DO GRUPO:** 
-- Lucas Dipré Pereira Teste2
+- Lucas Dipré Pereira
 
 
         
